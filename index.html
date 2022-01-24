@@ -28,7 +28,10 @@
     <title>Orbit Event Management</title>
   </head>
   <body>
-    <!-- header part/navabr start  -->
+    <!-----------------------------
+      ---- header part/navabr start
+    -------------------------------->
+    <!-- navbar start  -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
@@ -65,7 +68,7 @@
         </div>
       </nav>
     </header>
-    <!-- header part/navabr end  -->
+    <!-- navabr end  -->
 
     <!-- introduction/carousel part start   -->
     <section>
@@ -181,8 +184,25 @@
       </div>
     </section>
     <!-- introduction/carousel part end  -->
+     <!-----------------------------
+      ---- header part/navabr end
+    -------------------------------->
 
+    <!-----------------------------
+    ---------- main part start-----
+    ------------------------------->
     <main>
+      <!-- toast part start  -->
+      <div class="toast show align-items-center border border-5 border-top-0 border-end-0 border-bottom-0 border-primary position-absolute  end-0" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body"> 
+            <i class="fas fa-gift text-primary"></i> 30% off for first booking 
+         </div>
+          <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+      <!-- toast part end  -->
+
       <!-- extra part 1 start  -->
       <section class="container mt-5 ">
         <div class="row align-items-center g-5 extra-1">
@@ -214,97 +234,96 @@
       <!-- extra part 1 end -->
 
       <!-- package part start  -->
-      <!-- <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3"> -->
-        <div class="packages custom-font">
-          <div class="package-title mb-5">
-              <h2 class="text-center fw-bold ">Our Packages</h2>
-          </div>
-          <div class="container">
-              <div class="row g-4 justify-content-between">
-                  <div class="card border-0 col-sm-12 col-md-6 col-lg-3">
-                      <div class="card-body mt-5">
-                          <h3 class="card-title fw-bold lh-lg">$300</h3>
-                          <h5 class="card-subtitle fw-bold lh-lg">Business Fair</h5>
-                          <p>For most business events like book fair, craft fair.</p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Limited space
-                              access</p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Security facility
-                          </p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Event support</p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Decoration design
-                          </p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Per day bill</p>
-                          <div class="text-center">
-                              <a class="card-link choose-plan-button text-decoration-none rounded-pill" href="#" >Choose Plan</a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="card border-0 col-sm-12 col-md-6 col-lg-3">
-                      <div class="card-body mt-5">
-                          <h3 class="card-title fw-bold lh-lg">$500</h3>
-                          <h5 class="card-subtitle fw-bold lh-lg">Wedding Basic</h5>
-                          <p>For weddings with basic plan and limited items.</p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Full space access
-                              access</p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Food arrangement
-                          </p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Management support
-                          </p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Decoration design
-                          </p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Billed as shift</p>
-                          <div class="text-center">
-                            <a href="#" class="card-link choose-plan-button text-decoration-none rounded-pill">Choose Plan</a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="card border-0 col-sm-12 col-md-6 col-lg-3 ">
-                      <div class="card-body mt-4 text-white bg-primary rounded-3 px-4 shadow">
-                          <h3 class="card-title fw-bold lh-lg">$800</h3>
-                          <h5 class="card-subtitle fw-bold lh-lg">Wedding Plus</h5>
-                          <p>For most weddings with premium plans.</p>
-                          <p class="card-text lh-1"><i class="fas fa-check-circle"></i> Full space access
-                              access</p>
-                          <p class="card-text lh-1"><i class="fas fa-check-circle"></i> Dedicated Team
-                          </p>
-                          <p class="card-text lh-1"><i class="fas fa-check-circle"></i> Buffet food</p>
-                          <p class="card-text lh-1"><i class="fas fa-check-circle"></i> Premium Decoration
-                          </p>
-                          <p class="card-text lh-1"><i class="fas fa-check-circle"></i> Pay with plans</p>
-                          <div class="text-center">
-                              <!-- <a href="#" class="card-link btn bg-white text-dark rounded-pill mt-3">Choose
-                                  Plan</a> -->
-                                  <a href="#" class="card-link custom-button text-decoration-none rounded-pill">Choose Plan</a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="card border-0 col-sm-12 col-md-6 col-lg-3">
-                      <div class="card-body mt-5">
-                          <h3 class="card-title fw-bold lh-lg">$1200</h3>
-                          <h5 class="card-subtitle fw-bold lh-lg">Corporate Events</h5>
-                          <p>For most corporate business events with plans.</p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Full space access
-                              access</p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Security facility
-                          </p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Event support</p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Premium Decoration
-                          </p>
-                          <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Pay as plans</p>
-                          <div class="text-center">
-                            <a href="#" class="card-link choose-plan-button text-decoration-none rounded-pill">Choose Plan</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
+        <section>
+          <div class="packages custom-font">
+            <div class="package-title mb-5">
+                <h2 class="text-center fw-bold ">Our Packages</h2>
+            </div>
+            <div class="container">
+                <div class="row g-4 justify-content-between">
+                    <div class="card border-0 col-sm-12 col-md-6 col-lg-3">
+                        <div class="card-body mt-5">
+                            <h3 class="card-title fw-bold lh-lg">$300</h3>
+                            <h5 class="card-subtitle fw-bold lh-lg">Business Fair</h5>
+                            <p>For most business events like book fair, craft fair.</p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Limited space
+                                access</p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Security facility
+                            </p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Event support</p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Decoration design
+                            </p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Per day bill</p>
+                            <div >
+                                <a class="card-link choose-plan-button text-decoration-none rounded-pill" href="#" >Choose Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 col-sm-12 col-md-6 col-lg-3">
+                        <div class="card-body mt-5">
+                            <h3 class="card-title fw-bold lh-lg">$500</h3>
+                            <h5 class="card-subtitle fw-bold lh-lg">Wedding Basic</h5>
+                            <p>For weddings with basic plan and limited items.</p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Full space access
+                                access</p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Food arrangement
+                            </p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Management support
+                            </p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Decoration design
+                            </p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Billed as shift</p>
+                            <div>
+                              <a href="#" class="card-link choose-plan-button text-decoration-none rounded-pill">Choose Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 col-sm-12 col-md-6 col-lg-3 ">
+                        <div class="card-body mt-4 text-white bg-primary rounded-3 px-3 py-1 shadow">
+                          <span class="badge rounded-pill bg-danger position-relative top-0 start-100 translate-middle ">Best Dill </span>
+                            <h3 class="card-title fw-bold lh-lg">$800</h3>
+                            <h5 class="card-subtitle fw-bold lh-lg">Wedding Plus</h5>
+                            <p>For most weddings with premium plans.</p>
+                            <p class="card-text lh-1"><i class="fas fa-check-circle"></i> Full space access
+                                access</p>
+                            <p class="card-text lh-1"><i class="fas fa-check-circle"></i> Dedicated Team
+                            </p>
+                            <p class="card-text lh-1"><i class="fas fa-check-circle"></i> Buffet food</p>
+                            <p class="card-text lh-1"><i class="fas fa-check-circle"></i> Premium Decoration
+                            </p>
+                            <p class="card-text lh-1"><i class="fas fa-check-circle"></i> Pay with plans</p>
+                            <div >
+                                    <a href="#" class="card-link custom-button text-decoration-none rounded-pill">Choose Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 col-sm-12 col-md-6 col-lg-3">
+                        <div class="card-body mt-5">
+                            <h3 class="card-title fw-bold lh-lg">$1200</h3>
+                            <h5 class="card-subtitle fw-bold lh-lg">Corporate Events</h5>
+                            <p>For most corporate business events with plans.</p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Full space access
+                                access</p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Security facility
+                            </p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Event support</p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Premium Decoration
+                            </p>
+                            <p class="card-text text-muted lh-1"><i class="fas fa-check-circle"></i> Pay as plans</p>
+                            <div>
+                              <a href="#" class="card-link choose-plan-button text-decoration-none rounded-pill">Choose Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        </div>
+        </section>
+      <!-- package part end  -->
 
-      </div>
- <!-- package part end  -->
-
- <!-- our leatest event  -->
-
- <div class="latest-events">
+     <!-- extrapart2/ leatest event start  -->
+      <div class="latest-events">
   <h3 class="fw-bold text-center mb-5">Latest Events</h3>
   <div class="container">
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-between g-4">
@@ -352,11 +371,11 @@
           </div>
       </div>
   </div>
-</div>
-<!-- leatest event ends  -->
+      </div>
+     <!-- extrapart2/ leatest event end  -->
 
-   <!-- faq section starts here -->
-   <div class="faq-section">
+     <!-- faq section starts here -->
+     <div class="faq-section">
     <h3 class="text-center fw-bold mb-5">Frequenlty Asked Question</h3>
     <div class="container">
         <div class="row align-items-center justify-content-between g-4">
@@ -440,12 +459,12 @@
             </div>
         </div>
     </div>
-</div>
-<!-- faq section ends here -->
-
-
-
-    </main>
+     </div>
+     <!-- faq section ends here -->
+   </main>
+   <!-----------------------------
+    ---------- main part end-----
+    ------------------------------->
 
     <!-- bootstrap jss bundle  -->
     <script
